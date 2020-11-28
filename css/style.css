@@ -16,7 +16,7 @@
 }
 .category{ /* Each photo on new line */
     display: inline-block;
-    margin: 5px 20px;
+    margin: 5px 5px;
     padding: 5px;
 }
 
@@ -36,3 +36,4 @@ body
   background-color: rgb(178, 184, 154);
   color: rgb(87, 66, 55);
 }
+/*color: rgb(69, 58, 47);*/
