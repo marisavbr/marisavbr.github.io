@@ -1,0 +1,38 @@
+ img.center {
+   display: block;
+   margin: 0 auto;
+ }
+ /*class="center"*/
+
+ .center {
+   margin: auto;
+   width: 70%;
+   padding: 10px;
+ }
+
+
+ .container{ /* New new line of photos */
+    text-align: center;
+}
+.category{ /* Each photo on new line */
+    display: inline-block;
+    margin: 5px 20px;
+    padding: 5px;
+}
+
+/* br {
+  display: block;
+  margin: 200px 0;
+} */
+
+/* br {
+  display: block;
+  content: "";
+  margin-top: 300% ;
+} */
+
+body
+{
+  background-color: rgb(178, 184, 154);
+  color: rgb(87, 66, 55);
+}
