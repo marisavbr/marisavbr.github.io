@@ -20,6 +20,20 @@
     padding: 5px;
 }
 
+a {color: purple; }
+
+/* unvisited link */
+a:link {color: slateblue;}
+
+/* visited link */
+a:visited {color: purple;}
+
+/* mouse over link */
+a:hover {color: brown;}
+
+/* selected link */
+a:active {color: darkslateblue;}
+
 /* br {
   display: block;
   margin: 200px 0;
