@@ -20,13 +20,13 @@
     padding: 5px;
 }
 
-a {color: purple; }
+a {color: olive; }
 
 /* unvisited link */
-a:link {color: slateblue;}
+a:link {color: olive;}
 
 /* visited link */
-a:visited {color: purple;}
+a:visited {color: olivedrab;}
 
 /* mouse over link */
 a:hover {color: brown;}
