@@ -20,6 +20,11 @@
     padding: 5px;
 }
 
+.wrap {
+margin: 50 auto;
+width: 700px;
+}
+
 /* stars */
 /* <div class="goldstardiv">&#x2605;</div>
 <div class="goldgraystardiv">&#x2605;</div>
