@@ -25,6 +25,7 @@ margin: 50 auto;
 width: 700px;
 }
 
+
 /* stars */
 /* <div class="goldstardiv">&#x2605;</div>
 <div class="goldgraystardiv">&#x2605;</div>
@@ -37,6 +38,44 @@ width: 700px;
 <!-- <svg width="1em" height="1em" viewBox="0 0 16 16" class="bi bi-star-half" fill="currentColor" xmlns="http://www.w3.org/2000/svg">
 <path fill-rule="evenodd" d="M5.354 5.119L7.538.792A.516.516 0 0 1 8 .5c.183 0 .366.097.465.292l2.184 4.327 4.898.696A.537.537 0 0 1 16 6.32a.55.55 0 0 1-.17.445l-3.523 3.356.83 4.73c.078.443-.36.79-.746.592L8 13.187l-4.389 2.256a.519.519 0 0 1-.146.05c-.341.06-.668-.254-.6-.642l.83-4.73L.173 6.765a.55.55 0 0 1-.171-.403.59.59 0 0 1 .084-.302.513.513 0 0 1 .37-.245l4.898-.696zM8 12.027c.08 0 .16.018.232.056l3.686 1.894-.694-3.957a.564.564 0 0 1 .163-.505l2.906-2.77-4.052-.576a.525.525 0 0 1-.393-.288L8.002 2.223 8 2.226v9.8z"/>
 </svg> --> */
+
+
+/* body {
+  font-size: 16px;
+}
+
+.e-item-card-recently-viewed_stars {
+  color: #555;
+}
+
+.m-item-card-recently-viewed_stars__orange {
+  color: #f97d00;
+}
+
+.half {
+  display: inline-flex;
+}
+
+.half > div:first-child {
+  overflow: hidden;
+  width: 27px;
+  z-index: 1;
+  color: #f97d00;
+}
+.half > div:last-child {
+  position: relative;
+  margin-left:-27px;
+
+} */
+/* ^
+ html
+<span class="e-item-card-recently-viewed_stars">
+<span class="m-item-card-recently-viewed_stars__orange">
+  &#9733; &#9733; &#9733; &#9733; </span><span class='half'><div>★</div><div> &#9733;</div>
+</span>
+</span> */
+
+
 
 /* a {color: olive;} */
 
@@ -78,44 +117,3 @@ body
 /* &#9734; */
 /* filled in */
 /* &#9733; */
-
-/* <div id="star-five"> </div> */
-/* #star-five {
-  margin: 50px 0;
-  position: relative;
-  display: block;
-  color: darkolivegreen;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid darkolivegreen;
-  border-left: 100px solid transparent;
-  transform: rotate(35deg);
-}
-#star-five:before {
-  border-bottom: 80px solid darkolivegreen;
-  border-left: 30px solid transparent;
-  border-right: 30px solid transparent;
-  position: absolute;
-  height: 0;
-  width: 0;
-  top: -45px;
-  left: -65px;
-  display: block;
-  content: '';
-  transform: rotate(-35deg);
-}
-#star-five:after {
-  position: absolute;
-  display: solid;
-  color: darkolivegreen;
-  top: 3px;
-  left: -105px;
-  width: 0px;
-  height: 0px;
-  border-right: 100px solid transparent;
-  border-bottom: 70px solid darkolivegreen;
-  border-left: 100px solid transparent;
-  transform: rotate(-70deg);
-  content: '';
-} */
