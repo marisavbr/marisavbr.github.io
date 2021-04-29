@@ -10,6 +10,18 @@
    padding: 10px;
  }
 
+ .center-right {
+   margin: auto;
+   width: 40%;
+   padding: 10px;
+ }
+
+ .right {
+   margin: auto;
+   width: 10%;
+   padding: 10px;
+ }
+
 
  .container{ /* New line of photos */
     text-align: center;
